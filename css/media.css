@@ -1,0 +1,60 @@
+/*start media query*/
+/*from 0 to mobile and tablets*/
+@media (max-width: 767px){
+    h1 {
+        font-size: 30px;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .navbar-inverse .navbar-brand {
+        font-size: 25px;
+    }
+
+    .navbar-toggle {
+        margin-top: 17px;
+    }
+
+    .navbar-fixed-top .navbar-collapse, 
+    .navbar-fixed-bottom .navbar-collapse {
+        max-height: none;
+    }
+}
+
+/*from small to large*/
+@media (min-width: 768px){
+    h1 {
+        font-size: 50px;
+    }
+}
+
+/*from small to medium*/
+@media (min-width: 768px) and (max-width: 991px){
+    h1 {
+        font-size: 50px;
+    }
+}
+
+/*from medium to large*/
+@media (min-width: 992px) and (max-width: 1199px){
+    h1 {
+        font-size: 50px;
+    }
+}
+
+/*large screen*/
+@media (min-width: 1200px){
+    h1 {
+        font-size: 35px;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 15px;
+    }
+}
+/*end media query*/
+
+

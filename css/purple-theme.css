@@ -1,0 +1,57 @@
+/**** start default theme ****/
+.navbar-nav > li > .dropdown-menu {
+    border-top: 3px solid #8b5b7d;
+}
+
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus,
+.dropdown-menu .divider,
+.option-box .color-option ul li,
+.price-table .price-box .btn,
+.skills .progress-skills .progress .progress-bar {
+    background-color: #8b5b7d;
+}
+
+.navbar-inverse .navbar-brand,
+.about h1 span,
+.about h3 span {
+    text-shadow: 4px 4px 4px #8b5b7d;
+}
+
+.option-box .color-option{
+    border: 4px solid #8b5b7d;
+}
+
+.option-box .gear-check{
+    background: #8b5b7d;
+    border-bottom: 1px solid #8b5b7d;
+    border-top: 1px solid #8b5b7d;
+    border-right: 1px solid #8b5b7d;
+}
+
+.features,
+.testimonials .carousel-inner .item span,
+.our-team .team .person .fa-facebook-square, 
+.our-team .team .person .fa-twitter-square, 
+.our-team .team .person .fa-youtube-square, 
+.our-team .team .person .fa-google-plus-square,
+.footer h3,
+.footer .copyright span {
+    color: #8b5b7d;
+}
+
+.testimonials .carousel-indicators li.active,
+.price-table .price-box:hover p {
+    border: 2px solid #8b5b7d;
+}
+
+.subscribe .btn-danger{
+    background-color: #8b5b7d;
+    border: 1px solid #8b5b7d;
+}
+
+.contact-us .contact .btn-primary{
+    background: #8b5b7d;
+    border: 1px solid #8b5b7d;
+}
+/**** end default theme ****/
